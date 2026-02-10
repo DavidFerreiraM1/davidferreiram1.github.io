@@ -1,6 +1,4 @@
-# Shoplist app
-
-Política de Privacidade
+# Política de Privacidade
 
 Este aplicativo foi desenvolvido com foco na simplicidade e na privacidade do usuário.
 
