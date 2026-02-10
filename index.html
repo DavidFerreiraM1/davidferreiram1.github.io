@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade</title>
+
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.2rem;
+      color: var(--accent);
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.3rem;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 12px 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Política de Privacidade</h1>
+
+      <p>
+        Este aplicativo foi desenvolvido com foco na simplicidade e na
+        privacidade do usuário.
+      </p>
+
+      <h2>Coleta de informações</h2>
+      <p>
+        Este aplicativo <strong>não coleta, não armazena e não compartilha</strong>
+        nenhuma informação pessoal do usuário.
+      </p>
+      <p>
+        Não solicitamos cadastro, login, e-mail, número de telefone ou qualquer
+        outro dado que identifique o usuário.
+      </p>
+
+      <h2>Armazenamento de dados</h2>
+      <p>
+        Todas as informações inseridas no aplicativo (como itens da lista de
+        compras e preços) são armazenadas
+        <strong>exclusivamente no próprio dispositivo do usuário</strong>,
+        utilizando armazenamento local.
+      </p>
+
+      <ul>
+        <li>Os dados não são enviados para servidores externos</li>
+        <li>Os dados não são compartilhados com terceiros</li>
+        <li>Os dados não são acessados pelo desenvolvedor</li>
+      </ul>
+
+      <p>
+        Caso o aplicativo seja desinstalado, todos os dados armazenados
+        localmente também serão removidos.
+      </p>
+
+      <h2>Integrações e serviços de terceiros</h2>
+      <p>
+        Este aplicativo <strong>não utiliza APIs externas</strong>, serviços de
+        terceiros, ferramentas de análise, anúncios ou sistemas de rastreamento.
+      </p>
+
+      <h2>Segurança</h2>
+      <p>
+        Como os dados permanecem apenas no dispositivo do usuário, a segurança
+        das informações depende das medidas de proteção do próprio sistema
+        operacional do dispositivo.
+      </p>
+
+      <h2>Alterações nesta política</h2>
+      <p>
+        Esta Política de Privacidade pode ser atualizada futuramente. Caso isso
+        ocorra, a versão mais recente estará sempre disponível nesta página.
+      </p>
+
+      <h2>Contato</h2>
+      <p>
+        Se você tiver qualquer dúvida sobre esta Política de Privacidade,
+        entre em contato pelo e-mail:
+      </p>
+      <p>
+        <strong>seu-email@exemplo.com</strong>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> • Política de Privacidade
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
