@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
 title: Shoplist mobile
+
+show_downloads: false
